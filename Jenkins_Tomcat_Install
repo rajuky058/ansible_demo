@@ -29,10 +29,10 @@ source /etc/profile
 echo $JAVA_HOME
 echo $JRE_HOME
 sudo useradd -m -U -d /opt/tomcat -s /bin/false tomcat
-wget https://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz
-tar -xf apache-tomcat-9.0.27.tar.gz
-sudo mv apache-tomcat-9.0.27 /opt/tomcat/
-sudo ln -s /opt/tomcat/apache-tomcat-9.0.27 /opt/tomcat/latest	
+wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.53/bin/apache-tomcat-9.0.53.tar.gz
+tar -xf apache-tomcat-9.0.53.tar.gz
+sudo mv apache-tomcat-9.0.53 /opt/tomcat/
+sudo ln -s /opt/tomcat/apache-tomcat-9.0.53 /opt/tomcat/latest	
 sudo chown -R tomcat: /opt/tomcat
 sudo sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'
 
