@@ -1,0 +1,9 @@
+amazon-linux-extras install epel
+yum update -y
+yum install ansible -y
+yum install python python-pip python-setuptools*
+yum install pip
+pip install boto
+yum install awscli -y
+yum install git -y
+aws configure
