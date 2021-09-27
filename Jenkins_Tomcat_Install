@@ -1,4 +1,4 @@
-Jenkins Installation:
+Jenkins Installation steps:
 
 sudo yum install epel-release
 sudo yum update
